@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+        align-content: center;
+        background-color: #fff952;}
+
+      footer {background-color: #ffa352;
+              font-size: 24px;}
+      h1 { background-color: #ffa352;}
+      p {background-color: #ffa352;}
+      }
+      .button {
+          border: 5px solid #ff5258;
+          color: rgb(0, 0, 0);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          transition-duration: 0.4s;
+        }
+
+        .button1 {background-color: #ffa352; } /* orange */
+        .button2 {background-color: #ffa352; } /* yellow */
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Kitten Food</h1>
+      <p>Kittens love salmon</p>
+    </div>
+    <button class="button button1" type="button" onclick="myFunction()">Click here!</button>
+    <br><br>
+    <img src="./images/salmon.jpg" width="500">
+    <br><br>
+    <button class="button button2" type="button" onclick="myFunction2()">Click here!</button>
+  </body>
+  <footer>
+    <p>Copyright 2022 Craig Cowden</p>
+  </footer>
+  <script>
+    function myFunction() {
+      alert("What else do kittens like?");
+    }
+    function myFunction2() {
+      alert("Enjoy the fish!");
+    }
+    </script>
+</html>
