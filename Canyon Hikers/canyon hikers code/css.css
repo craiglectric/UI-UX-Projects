@@ -1,0 +1,16 @@
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #dc9750;
+}
+
+button {
+    background-color: #922c40;
+}
