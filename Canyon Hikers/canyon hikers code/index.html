@@ -9,6 +9,18 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="javascript.js"></script>
 </head>
+
+
+<!--Audio-->
+<audio src="images/audio.mp3" autoplay="autoplay" loop="loop"></audio>
+
+<audio controls>
+  <source src="images/audio.mp3" type="audio/ogg">
+  <source src="images/audio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
 <body>
     <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -19,25 +31,25 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link active">Home</a>
-                    <a href="#" class="nav-item nav-link">Hiking</a>
-                    <a href="#" class="nav-item nav-link">Zip Lining</a>
-                      <a href="#" class="nav-item nav-link">Mule Riding</a>
-                      <a href="#" class="nav-item nav-link">Rafting</a>
+                    <a href="#home" class="nav-item nav-link active">Home</a>
+                    <a href="#hiking" class="nav-item nav-link">Hiking</a>
+                    <a href="#ziplining" class="nav-item nav-link">Zip Lining</a>
+                      <a href="#muleride" class="nav-item nav-link">Mule Riding</a>
+                      <a href="#rafting" class="nav-item nav-link">Rafting</a>
                 </div>
             </div>
         </div>
     </nav>
 
 <!--Main logo-->
-<img src="images/logo.png" class="logo" width="500">
+<img src="images/logo.png" class="logo" width="500" id="home">
 
 <!--Greeting card-->
 <div class="m-4">
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">Welcome!</h5>
-            <p class="card-text">The Grand Canyon is a wonderful place to go hiking!
+            <h5 class="card-title" id="demo">Welcome!</h5>
+            <p id="demo" class="card-text">The Grand Canyon is a wonderful place to go hiking!
                 In addition to hiking there are numerous other ways to play
                 at the Grand Canyon. Whether you’re an adventure seeker or looking for something
                 a little more tame, on our website you’ll find new ways to say hooray
@@ -47,7 +59,7 @@
 </div>
 
 <!--Hiking-->
-<div class="card bg-dark text-white">
+<div class="card bg-dark text-white" id="hiking demo">
     <img class="card-img" src="images/hiker.png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Hiking the Grand Canyon</h5>
@@ -56,7 +68,7 @@
     </div>
   </div>
 
-  <div class="card bg-dark text-white">
+  <div class="card bg-dark text-white" id="ziplining">
     <img class="card-img" src="images/ziplining.png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Zip Lining the Grand Canyon</h5>
@@ -65,7 +77,7 @@
     </div>
   </div>
 
-  <div class="card bg-dark text-white">
+  <div class="card bg-dark text-white" id="muleride">
     <img class="card-img" src="images/burros.png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Mule Riding the Grand Canyon</h5>
@@ -74,7 +86,7 @@
     </div>
   </div>
 
-  <div class="card bg-dark text-white">
+  <div class="card bg-dark text-white" id="rafting">
     <img class="card-img" src="images/rafting.png" alt="Card image">
     <div class="card-img-overlay">
       <h5 class="card-title">Rafting the Grand Canyon</h5>

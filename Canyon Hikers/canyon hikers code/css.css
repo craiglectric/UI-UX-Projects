@@ -11,6 +11,44 @@ body {
   background-color: #dc9750;
 }
 
-button {
-    background-color: #922c40;
+.button {
+  padding: 15px 25px;
+  font-size: 35px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #922c40;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #922c40;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.demo {
+  background: #FFB6C1;
+  transition: background-color 2s ease-out 100ms
+}
+
+div:hover {
+  background-color: #dc9750;
+}
+
+
+article {
+  opacity: 0;
+  left: -100%;
+  transition: opacity 300ms ease-in;
+}
+
+.show-time article {
+  opacity: 1;
+  left: 0;
 }
